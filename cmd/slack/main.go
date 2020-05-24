@@ -12,12 +12,12 @@ import (
 )
 
 /*
-AppConfigDirName は設定が保存されるディレクトリ名です。ホームディレクトリ下に指定された名前のディレクトリが作成されます。
+AppConfigDirName is the directory name to save settings.
 */
 const AppConfigDirName = "go-slack"
 
 /*
-AppConfig はアプリケーション設定情報定義です。
+AppConfig describes setting format.
 */
 type AppConfig struct {
 	Token string `json:"token"`
