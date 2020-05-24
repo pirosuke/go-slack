@@ -1,0 +1,2 @@
+# go-slack
+Slack Client
